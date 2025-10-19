@@ -1,0 +1,35 @@
+{
+  "name": "YourName API",
+  "version": "1.0.0",
+  "description": "Simple and Easy-to-Use API Documentation",
+  "header": {
+    "status": "online",
+    "imageSrc": [
+     "https://i.ibb.co/gbn3Nmt7/9070324cdfc07c68d60eed0c39e77573.gif"
+    ],
+    "imageSize": {
+      "mobile": "80%",
+      "tablet": "40%",
+      "desktop": "40%"
+    }
+  },
+  "apiSettings": {
+    "operator": "name_here"
+  },
+  "links": [
+    {
+      "name": "Contact Me",
+      "url": "https://facebook.com/profile.php"
+    },
+    {
+      "name": "Status",
+      "url": ""
+    }
+  ],
+  "notifications": [
+    {
+      "title": "Welcome to Rest API Dashboard",
+      "message": "Explore our APIs and integrate them into your projects."
+    }
+  ]
+}
