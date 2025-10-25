@@ -127,7 +127,11 @@ app.get('/api/info', limiter, (req, res) => {
   res.json({ categories: Object.values(categories) });
 });
 
-app.get('/docs', limiter, (req, res) => {
+/*app.get('/docs', limiter, (req, res) => {
+  res.sendFile(path.join(__dirname, 'web', 'docs.html'));
+});
+*/
+app.get(['/docs', '/docs/'], (req, res) => {
   res.sendFile(path.join(__dirname, 'web', 'docs.html'));
 });
 
